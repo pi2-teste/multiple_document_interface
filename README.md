@@ -13,7 +13,7 @@ Introdução a aplicação com múltiplos documentos.
 
 1.4 Adicione um componente _JDesktopPane_ (Painel de Área de Trabalho)  ao formulário ***“MDIView”*** e redimensione-o para ocupar todo o espaço restante do formulário.
 
-1.5 Adicione ao projeto um novo formulário do tipo _JInternalFrame_ chamado ***“FrameInterno”***.
+1.5 Crie uma classe nova, com um novo formulário do tipo _JInternalFrame_ chamado ***“FrameInterno”***. (para criar uma classe nova você deverá clicar na região onde estão os arquivos e selecionar "novo JInternalFrame". Se essa opção não estiver lá, você terá que procurar no menu "outros")
 
 1.6 Inclua um controle JTextArea no formulário “FrameInterno”
 
@@ -31,7 +31,7 @@ janelaInterna.setPreferredSize(new Dimension(350,300));
 ```
 this.nomeSeuDeskopPane.add(janelaInterna);
 //Força o redimensionamento da janela ao tamanho preferido
-nomeSeuDeskopPane.pack();
+janelaInterna.pack();
 ```
 
 
